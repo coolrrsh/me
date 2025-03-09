@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elegant Redirect</title>
+    <style>
+        /* Simple, elegant styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .redirect-box {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #777;
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="redirect-box">
+        <h1>Welcome to the Website</h1>
+        <p>You will be redirected shortly...</p>
+    </div>
+
+    <script>
+        // Automatically redirect to the target URL after 2 seconds (2000ms)
+        setTimeout(function() {
+            window.location.href = 'https://rajeshwar00shinde.github.io/me/';
+        }, 2000); // Set to 2000ms (2 seconds) for a brief delay
+    </script>
+</body>
+</html>
